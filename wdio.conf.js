@@ -4,7 +4,7 @@ const video = require('wdio-video-reporter');
 exports.config = {
    
     specs: [
-        './tests/specs/login.spec.js',
+        './tests/specs/e2eCadastroProduto.spec.js',
     ],
     runner: 'local',
     framework: 'mocha',
